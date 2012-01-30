@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<d:dictionary xmlns="http://www.w3.org/1999/xhtml" xmlns:d="http://www.apple.com/DTDs/DictionaryService-1.0.rng">
+<% entries.each do |entry| %>
+  <d:entry id="<%= entry.id %>" d:title="<%= entry.title %>">
+    <% entry.indexes.each do |index| %>
+    	<d:index d:value="<%= index %>"/>
+    <% end %>
+    <%= entry.body %>
+  </d:entry>
+<% end %>
+</d:dictionary>
