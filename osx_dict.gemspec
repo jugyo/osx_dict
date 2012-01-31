@@ -7,9 +7,9 @@ Gem::Specification.new do |s|
   s.version     = OSXDict::VERSION
   s.authors     = ["jugyo"]
   s.email       = ["jugyo.org@gmail.com"]
-  s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.homepage    = "https://github.com/jugyo/osx_dict"
+  s.summary     = %q{Make your own dictionary for MacOSX!}
+  s.description = %q{Dictionary maker for MacOSX Dictionary.app}
 
   s.rubyforge_project = "osx_dict"
 
