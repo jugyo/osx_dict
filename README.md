@@ -25,7 +25,7 @@ Example
     <p>bar bar</p>
     BODY
 
-    dict.make('./')
+    dict.make
 
 Copyright
 ----
