@@ -61,7 +61,8 @@ module OSXDict
   end
 
   class Entry
-    attr_accessor :id, :title, :body, :indexes
+    attr_accessor :id, :title, :body
+    attr_writer :indexes
 
     def initialize(attrs)
       attrs.each do |key, value|
