@@ -14,6 +14,10 @@ module OSXDict
       end
     end
 
+    def add_entry(options)
+      entries << OSXDict::Entry.new(options)
+    end
+
     def entries
       @entries ||= []
     end
