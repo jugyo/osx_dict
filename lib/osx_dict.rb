@@ -1,10 +1,10 @@
 # encoding: utf-8
-require "osx_dictionary/version"
+require "osx_dict/version"
 require "fileutils"
 require "tmpdir"
 require "erb"
 
-module OsxDict
+module OSXDict
   class Dictionary
     attr_accessor :id, :filename, :name
 
@@ -56,7 +56,7 @@ module OsxDict
     end
 
     def template_dir
-      File.expand_path('../osx_dictionary', __FILE__)
+      File.expand_path('../osx_dict', __FILE__)
     end
   end
 

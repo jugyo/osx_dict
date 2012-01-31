@@ -1,7 +1,7 @@
-require 'osx_dictionary'
+require 'osx_dict'
 
-dict = OsxDict::Dictionary.new(:id => 'com.example.Foo', :name => "Foo Dictionary", :filename => 'Foo Dict')
-dict.entries << OsxDict::Entry.new(:id => 'foo', :title => 'Foo', :body => <<BODY, :indexes => ['foo', 'Foo'])
+dict = OSXDict::Dictionary.new(:id => 'com.example.Foo', :name => "Foo Dictionary", :filename => 'Foo Dict')
+dict.entries << OSXDict::Entry.new(:id => 'foo', :title => 'Foo', :body => <<BODY, :indexes => ['foo', 'Foo'])
 <h1>foo</h1>
 <p>foo foo foo</p>
 BODY
