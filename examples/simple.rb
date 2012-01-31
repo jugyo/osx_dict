@@ -12,4 +12,4 @@ dict.add_entry(:id => 'bar', :title => 'Bar', :indexes => ['bar', 'Bar'], :body 
 <p>bar bar</p>
 BODY
 
-dict.make('./')
+dict.make
