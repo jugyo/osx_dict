@@ -2,6 +2,7 @@ osx_dict
 ====
 
 Make your own dictionary for MacOSX!
+The location to put user dictionary is `~/Library/Dictionaries`.
 
 Install
 ----
